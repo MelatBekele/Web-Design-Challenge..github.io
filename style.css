@@ -19,7 +19,13 @@ body {
     color: #333;
     background: #edf5f3;
   }
-
+.Compstyle
+{
+  background-color: lightgreen;
+  color: black;
+  height: 60px;
+  align-items: center;
+}
 
 .navbar a:hover {
     background-color: rgb(158, 228, 233);
@@ -39,6 +45,10 @@ body {
     z-index: 0;
 
 }
+.nav-link
+{
+  padding-top: 5%;
+}
 .navbar a.right {
     float: right;
   }
@@ -49,6 +59,8 @@ body {
 }
 .navbar-brand{
 font-size: 40px;
+padding-bottom: 10%;
+padding-top: 10%;
 }
 
 /* Style the dropdown content (hidden by default) 
